@@ -1,0 +1,130 @@
+*{
+    margin : 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(147, 31, 242);
+}
+
+.item{
+    width: 400px;
+    height: 400px;
+    
+    background-color: rgba(141, 196, 250, 0.788);
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.253);
+    padding: 20px;
+}
+
+.search-container{
+    width: 100%;
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container input{
+    width: 70%;
+    padding: 10px;
+
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+
+    border-bottom: 5px solid rgb(147, 31, 242);
+}
+
+.search-container button{
+    width: 25%;
+    border-radius: 5px;
+
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+
+    background-color: rgba(155, 38, 252, 0.772);
+    color: rgba(255, 255, 255, 0.696)
+}
+
+.circle-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle-1{
+    position: relative;
+    top: 50px;
+    left: 20px;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(105, 208, 248, 0.329), rgba(242, 245, 238, 0.555));
+}
+
+.circle-2{
+    position: relative;
+    top: 50px;
+    left: 80px;
+
+    width: 530px;
+    height:530px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(105, 208, 248, 0.329), rgba(242, 245, 238, 0.555));
+}
+
+.x {
+    position: relative;
+    width: 250px;
+    height: 250px;
+
+    left: 150px;
+    bottom: 100px;
+  }
+
+.x::before,
+.x::after {
+    content: '';
+    position: absolute;
+
+    height: 100%;
+    width: 45px;
+    background-color: rgb(28, 214, 243);
+    transform: rotate(45deg);
+}
+
+.x::after {
+    transform: rotate(-45deg);
+}
+
+
+/* .triangle {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+
+    
+    border-style: solid;
+    border-width: 0 300px 300px 300px;
+    border-color: transparent transparent rgba(215, 184, 241, 0.605);
+    border-radius: 5px;
+  } */
+
+
+  
+
+
