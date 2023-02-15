@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
@@ -15,13 +18,17 @@
         <div class="item">
             <div class="search-container">
                 <input type="text" placeholder="Enter city..." id = "city" value = "Hyderabad">
-                <button id = "search">Search</button>
+                <button id = "search-btn">Search</button>
             </div>
+            <div id="result"></div>
         </div> 
     </div>
 
+
+
     <div class="x"></div>
-    <div class="triangle"></div>
+    <div class="triangle-1"></div>
+    <div class="triangle-2"></div>
 
     <script src = "key.js"></script>
     <script src = "app.js"></script>
