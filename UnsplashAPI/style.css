@@ -9,11 +9,6 @@ body{
     background-color: rgb(109, 149, 185);
 }
 
-.main-container
-{
-    margin: 0 5% 0 5%;
-}
-
 nav{
     border : 2px solid black;
     display: flex;
@@ -28,7 +23,54 @@ nav{
     
     box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.322);
     font-family: 'Cabin', sans-serif;
+    
+    margin-bottom: 40px;
 }
+
+.main-container
+{
+    margin: 0 5% 0 5%;
+}
+
+.type-stuff
+{
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.type-stuff input{
+    font-family: 'Cabin', sans-serif;
+    border: none;
+    background-color: transparent;
+    
+    color: black;
+    background-color: white;
+
+    padding: 15px;  
+    width: 35%;
+
+    margin-right: 50px;
+    border-radius: 7px;
+
+    box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.322);
+}
+
+.type-stuff button{
+    font-family: 'Cabin', sans-serif;
+    padding: 15px;
+    border: none;
+
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.185);
+    color: white;
+
+    cursor:pointer;
+}
+
+
+
 
 .container
 { 
