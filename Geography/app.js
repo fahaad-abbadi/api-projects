@@ -15,24 +15,17 @@ let getGeoData = () => {
         {
             let ind = Math.floor(Math.random() * 5);
 
-            console.log(obj.data[4].country);
+            console.log(obj.data[ind].country);
             console.log(obj.data[ind].name);
 
             console.log(obj.data[ind].latitude);
             console.log(obj.data[ind].longitude);
 
-            const para = document.createElement("h2");
+            country.innerText = obj.data[ind].country;
+            address.innerText = obj.data[ind].name;
+            latitude.innerText = obj.data[ind].latitude;
+            longitude.innerText = obj.data[ind].longitude;
 
-            result.innerHTML = `
-                <h2>Country : ${obj.data[ind].country}</h2>
-
-                <h3>Lattitude : ${obj.data[ind].latitude}</h3>
-                <h3>Longitude :${obj.data[ind].longitude}</h3>
-
-                <h4>Place : ${obj.data[ind].name}</h4>
-            `
-
-            document.getElementById("result").appendChild(para);
         })
         .catch(err => console.error(err));
 }
