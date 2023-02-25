@@ -74,10 +74,13 @@ body{
 
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.201);
+
+    text-align: center;
 }
 
 .surah-input::-webkit-input-placeholder {
     font-family: 'Poppins', sans-serif;
+    text-align: left;
 }
 
 .surah h4
@@ -105,11 +108,13 @@ body{
     border-left: 5px solid green;
 
     box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.201);
-    /* border-bottom: 4px solid green; */
+
+    text-align: center;
 }
 
 .aayah-input::-webkit-input-placeholder {
     font-family: 'Poppins', sans-serif; 
+    text-align: left;
 }
 
 .aayah h4{
