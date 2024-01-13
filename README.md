@@ -27,6 +27,7 @@ This repository is meticulously curated to facilitate the learning of intermedia
 git clone https://github.com/your-username/javascript-learning-repo.git
 cd javascript-learning-repo
 npm install
+```
 
 ## Contributing
 
