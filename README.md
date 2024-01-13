@@ -1,5 +1,5 @@
-# StellarJS API 🚀
-
+# Craft JavaScript 🚀
+Welcome to Craft JavaScript – a playground for your JavaScript journey! Dive into the world of intermediate-level projects that blend creativity and code. Let's craft and elevate your skills in the art of JavaScript together. Happy coding!
 
 ## Table of Contents
 
