@@ -24,9 +24,7 @@ This repository is meticulously curated to facilitate the learning of intermedia
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/javascript-learning-repo.git
-cd javascript-learning-repo
-npm install
+git clone https://github.com/fahaad-abbadi/api-projects.git
 ```
 
 ## Contributing
