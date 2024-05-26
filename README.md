@@ -1,45 +1,79 @@
-# Craft JavaScript 🚀
-Welcome to Craft JavaScript – a playground for your JavaScript journey! Dive into the world of intermediate-level projects that blend creativity and code. Let's craft and elevate your skills in the art of JavaScript together. Happy coding!
+# API Projects by Fahaad Abbadi
+
+Welcome to the API Projects repository! This collection features a variety of intermediate JavaScript projects designed to enhance your understanding of API integrations and modern JavaScript practices.
 
 ## Table of Contents
+- [Projects](#projects)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
+## Projects
 
-## Introduction
-This repository is meticulously curated to facilitate the learning of intermediate-level JavaScript. Beyond mere projects, it presents a comprehensive exploration of JavaScript's versatile features. Engage in practical exercises involving DOM manipulation, API integration, Promises, Async/Await, and various other components essential for your growth as a JavaScript developer.
+### 1. Weather App
+A weather application that fetches data from a weather API to display current weather conditions for a specified location.
 
-## Features
+### 2. Movies App
+An app that fetches and displays information about movies from a movie database API. Users can search for movies and view details.
 
-- **Structured Learning:** Progress through a carefully designed curriculum, ensuring a systematic and effective learning experience.
+### 3. GitHub User Finder
+A tool to search for GitHub users and display their profile information and repositories using the GitHub API.
 
-- **Real-world Application:** Apply theoretical knowledge to real-world scenarios, gaining practical insights into JavaScript development.
-
-- **Comprehensive Coverage:** Explore a wide range of JavaScript functionalities, from DOM manipulation to advanced asynchronous programming.
+### 4. Currency Converter
+A currency converter that fetches exchange rates from a currency API to convert amounts between different currencies.
 
 ## Installation
-
-```bash
+Clone the repository using:
+```sh
 git clone https://github.com/fahaad-abbadi/api-projects.git
 ```
 
+Navigate to the project directory:
+```sh
+cd api-projects
+```
+
+## Usage
+Each project is located in its respective directory. Follow the README file within each project folder for specific usage instructions.
+
+Example: Running the Weather App
+Navigate to the Weather App directory:
+
+```sh
+cd weather-app
+```
+
+Start the application:
+
+```sh
+npm start
+```
+
 ## Contributing
+Contributions are welcome! Here's how you can help:
 
-Your contributions are highly valued! To contribute to this learning repository, follow these steps:
+Fork the repository.
+Create a new branch 
+```sh
+git checkout -b feature/your-feature
+```
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+Commit your changes 
+```sh
+git commit -m 'Add your feature
+```
 
-Please make sure to follow our [Contribution Guidelines](CONTRIBUTING.md).
+Push to the branch 
+```sh
+git push origin feature/your-feature
+```
+
+Open a Pull Request
 
 ## License
+This repository is licensed under the MIT License. See the LICENSE file for more details.
 
-This learning repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+```sh
+Check out the repository [here](https://github.com/fahaad-abbadi/api-projects)
+```
