@@ -18,7 +18,3 @@ An app that fetches and displays information about images from a unsplash databa
 ### 3. Dictionary App
 A tool to search for GitHub users and display their profile information and repositories using the GitHub API.
 ![Dictionary](https://github.com/user-attachments/assets/02a6475e-fc22-44f8-a54d-51fdf1adde07)
-
-
-### 4. Currency Converter
-A currency converter that fetches exchange rates from a currency API to convert amounts between different currencies.
