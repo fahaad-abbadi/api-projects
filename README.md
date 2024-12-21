@@ -1,4 +1,4 @@
-# API Projects by Fahaad Abbadi
+# API Projects
 
 Welcome to the API Projects repository! This collection features a variety of intermediate JavaScript projects designed to enhance your understanding of API integrations and modern JavaScript practices.
 
